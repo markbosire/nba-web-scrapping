@@ -6,7 +6,7 @@ server {
 
 
     location / {
-        root /home/vagrant/simplemern/client/dist;
+        root /home/ubuntu/simplemern/client/dist;
         index index.html;
         try_files $uri $uri/ /index.html;
     }
